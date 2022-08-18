@@ -1,0 +1,197 @@
+/* Container */
+.main-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Left */
+.main-container .left {
+  flex: 0.75;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 5rem;
+  background-color: rgba(7, 21, 42);
+}
+
+.main-container .left .logo {
+  width: 50%;
+  object-fit: cover;
+}
+
+/* Center */
+.main-container .center {
+  flex: 9;
+  height: 100%;
+  flex-direction: column;
+  padding: 1rem;
+  /* border: 1px solid rgba(7, 21, 42);
+  border-collapse: collapse; */
+}
+
+.main-container .center .header {
+  width: 100%;
+  height: 5%;
+  /* border: 1px solid rgba(7, 21, 42);
+  border-collapse: collapse; */
+}
+
+.main-container .center .video {
+  width: 100%;
+  height: 70.9%;
+  /* border: 1px solid rgba(7, 21, 42);
+  border-collapse: collapse; */
+}
+
+.main-container .center .video * {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+.main-container .center .notification {
+  width: 100%;
+  flex: 1;
+  /* border: 1px solid rgba(7, 21, 42);
+  border-collapse: collapse; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.main-container .center .notification .notice {
+  width: 49%;
+  height: 90%;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 1rem;
+  background-color: rgba(240, 241, 240);
+}
+
+.main-container .center .notification .notice .notice-content {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  overflow: hidden;
+}
+.main-container .center .notification .notice .notice-content .notice-item {
+  width: 100%;
+  white-space: nowrap;
+  word-break: break-all;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.main-container .center .notification .comment {
+  width: 49%;
+  height: 90%;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 1rem;
+  background-color: rgba(240, 241, 240);
+  white-space: pre-line;
+}
+
+.main-container .center .notification .comment .comment-content {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.main-container .center .notification .comment .comment-input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+}
+
+/* Right */
+.main-container .right {
+  flex: 3;
+  height: 100%;
+  flex-direction: column;
+  padding: 0.5rem;
+  /* border: 1px solid rgba(7, 21, 42);
+  border-collapse: collapse; */
+}
+
+.main-container .right .wait {
+  width: 100%;
+  height: 10%;
+  /* border: 1px solid rgba(7, 21, 42);
+  border-collapse: collapse; */
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-shadow: 1px 1px 5px white;
+  background-color: rgba(61, 108, 206);
+  border-radius: 1rem;
+  font-weight: bold;
+}
+
+.main-container .right .wait .wait-icon {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.main-container .right .wait .wait-text {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.75rem;
+}
+
+.main-container .right .wait-list {
+  width: 100%;
+  height: 95%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  /* border: 1px solid rgba(7, 21, 42); */
+  /* border-collapse: collapse; */
+}
+
+.main-container .right .wait-list .list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.main-container .right .wait-list .list .list-item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  padding: 1rem 0;
+}
